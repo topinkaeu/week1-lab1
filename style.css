@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  text-align: center;
+}
+
+.logo h1 {
+  color: #1aa06d;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+/* Form Container */
+.form-container {
+  width: 500px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-bottom: 30px;
+}
+
+/* Header */
+.form-header {
+  background: #dff5ec;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Inputs */
+form {
+  padding: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 13px;
+  display: block;
+  margin: 12px 0 6px;
+}
+
+/* Input Fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Row Layout */
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-box {
+  flex: 1;
+}
+
+.full {
+  width: 100%;
+}
+
+/* Date of Birth */
+.dob select {
+  width: 30%;
+}
+
+.calendar {
+  font-size: 20px;
+  padding-top: 8px;
+}
