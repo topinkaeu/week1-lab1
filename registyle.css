@@ -1,0 +1,24 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+.logo h1 {
+    color: #18a56f;
+    margin-top: 30px;
+    font-size: 28px;
+}
+.from-container {
+    width: 500px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+.from-header {
+    background: #dff5ec;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
